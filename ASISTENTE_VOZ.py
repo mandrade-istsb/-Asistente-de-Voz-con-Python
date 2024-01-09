@@ -73,7 +73,7 @@ canvas.pack()
 canvas.create_image(0, 0, anchor=tk.NW, image=imagen_fondo)
 
 # imagen para el ícono del asistente
-icon = Image.open("C:\\REPOSITORIO_CODIGOS\\PYTHON\\MANDRADE.jpg")
+icon = Image.open("C:\\REPOSITORIO_CODIGOS\\PYTHON\\blue_alt_folder.ico")
 icon = icon.resize((100, 100))
 icon = ImageTk.PhotoImage(icon)
 app.iconphoto(True, icon)
